@@ -25,6 +25,7 @@
 //! Wallet
 //!
 //! This module defines the [`Wallet`] structure.
+#![allow(clippy::all)]
 
 use std::cell::RefCell;
 use std::collections::HashMap;
