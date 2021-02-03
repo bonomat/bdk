@@ -21,6 +21,7 @@ jobs:
           - electrum
           - compact_filters
           - esplora,key-value-db,electrum
+          - esplora,async-interface
           - compiler
     steps:
       - name: checkout
